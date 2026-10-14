@@ -53,4 +53,6 @@ indent-style = "tab"
 docstring-code-format = true
 
 [tool.bench.frappe-dependencies]
-frappe = ">=17.0.0-dev,<18.0.0"
+# Bench-0001 is pinned to Frappe 16; retain the compatibility range used by
+# the deployed Education release so the preserved frontend artifact can build.
+frappe = ">=16.0.0,<17.0.0"
