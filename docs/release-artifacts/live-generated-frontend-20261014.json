@@ -1,0 +1,31 @@
+{
+  "source": "live bench-0001-000041-app2 at 2026-10-14",
+  "kind": "immutable generated release artifacts",
+  "artifacts": [
+    {
+      "path": "education/public/frontend/index.html",
+      "sha256": "3b68bdd5d923e1f1a3c11bbd4f2eb4d4070073b13b6e7b33cbe648f239ee71d9",
+      "bytes": 1152
+    },
+    {
+      "path": "education/public/frontend/assets/frappe-ui.f6936d40.js",
+      "sha256": "c6d36685d062b7a73541ca8bf2daef3048cfcb5999a8a2253ed332c7680e7e67",
+      "bytes": 804598
+    },
+    {
+      "path": "education/public/frontend/assets/index.fac26fd2.js",
+      "sha256": "e710c234323cd57100b456de15cddb0c52ab74f9ccf2725e45833f41ab36722b",
+      "bytes": 21923
+    },
+    {
+      "path": "education/public/frontend/assets/index.1c5e72f7.css",
+      "sha256": "96515ba58461d59bb55462b375646cf2681196cffecd4786a75f14a657844ad5",
+      "bytes": 82285
+    }
+  ],
+  "runtime_link": {
+    "path": "education/public/node_modules",
+    "target": "../../node_modules",
+    "created_by": "root postinstall yarn install --check-files"
+  }
+}
